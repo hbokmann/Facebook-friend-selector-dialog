@@ -1,0 +1,146 @@
+body { 
+    margin: auto; 
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+
+.facebook-friends {
+    postion: absolute;
+    border:10px solid #818181;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background:#F2F2F2;
+    margin: auto; 
+    width: 500px; 
+}
+
+.friends-title {
+    background:  #6D84B4;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 3px 3px 3px 10px;
+    text-align : left;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    border-top: 1px solid #1C4B91;
+    border-left: 1px solid #1C4B91;
+    border-right: 1px solid #1C4B91;
+}
+
+.friends-container {
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+    border-bottom: 1px solid #555;
+}
+
+.friends-header {
+    text-align: left;
+    height : 32px;
+    border-bottom: 1px solid #CCC;
+}
+
+input.find {
+    margin: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #9B9B9B;
+    width: 475px;
+    height: 16px;
+    color: #9B9B9B;
+    font-size: 12px;
+}
+
+.friends {
+    margin: auto; 
+    height: 350px;
+    overflow: auto;
+    background-color: #fff;
+}
+
+.friends-bottom {
+    border-top: 1px solid #CCC;
+    text-align: left;
+    height : 40px;
+}
+
+ul { 
+    list-style: none;  
+    margin-left: -25px;   
+}
+
+ul li { 
+    margin: 0px 3px;
+    padding: 1px;
+    float: left; 
+    width: 145px; 
+    height: 68px; 
+    display: inline-block; 
+    overflow: hidden;
+    cursor: pointer;
+}
+
+ul li:hover {
+    background-color: #eceff5;
+}
+
+.selected {
+    background-color: #D8DFEA;
+    border: 1px solid #8497C0;
+    padding: 0px;
+}
+
+ul li img {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    outline: 1px solid #E2E2E2;
+}
+
+ul li p {
+    color: #3B5998;
+    padding-top: 5px;
+    padding-left: 5px;
+    display: table-cell;
+    font-size: 12px;
+    width: 70px;
+    height: 50px;
+    vertical-align: middle;
+    overflow: hidden; 
+}
+
+img { 
+    float: left; 
+    padding-right: 1em; 
+}
+
+a { text-decoration: none; 
+    color: #333; 
+}
+
+.submit {
+    margin-top: 7px;
+    margin-right: 5px;
+    float: right;
+    background-color: #3B5998;
+    border: solid 1px #1A356E;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    font-size: 13px;
+    line-height: 13px;
+    cursor: pointer;
+}
+
+.cancel {
+    margin-top: 7px;
+    margin-right: 10px;
+    float: right;
+    background-color: #E5E5E5;
+    border: solid 1px #999;
+    font-weight: bold;
+    padding: 5px;
+    color: #333;
+    font-size: 13px;
+    line-height: 13px;
+    cursor: pointer;
+}
