@@ -1,0 +1,7 @@
+Displays all your Facebook friends in a javascript dialog box and allows to select a friends and bind an action for that friend.
+
+If user is already logged in, the index file can automatically open Facebook friend selector dialog.
+
+Currently only selecting one friend is supported, in a future release selecting multiple friends will also be implemented.
+
+I used it to post to a friend's wall, so you can use the javascript feed dialog (https://developers.facebook.com/docs/reference/dialogs/feed/) for that and define the "to" property with the selected id (inside the "function process(id)" in index.html).
